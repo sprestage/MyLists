@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Item name:</b>
+  <%= @item.name %>
+</p>
+
+<p>
+  <b>From list name:</b>
+  <%= @item.list.list_name %>
+</p>
+
+<%= link_to 'Edit', edit_list_item_path(@item.list, @item) %> |
+<%= link_to 'Back', list_items_path(@item.list) %>

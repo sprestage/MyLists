@@ -1,0 +1,11 @@
+list01:
+ list_name: Shopping List
+
+list02:
+ list_name: Ranch Chores List
+
+list03:
+ list_name: <% Faker::name %>
+
+list04:
+ list_name: Boot Camp Task List
