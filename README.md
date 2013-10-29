@@ -27,7 +27,7 @@ Edit Gemfile for some useful debugging gems
 
 Tuck away RAILS_SECRET from /config/initializer/secret_token.rb to /config/application.yml and add /config/application.yml to .gitignore.
 
-Ok, now we create the scaffold for the new resource, User.
+Ok, now we create the scaffold for the new resource, List.
 
   > rails g scaffold list -f --no-test-framework --no-assets --no-stylesheets --no-scss name:string
 
