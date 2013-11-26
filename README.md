@@ -27,7 +27,7 @@ Edit Gemfile for some useful debugging gems
 
 Tuck away RAILS_SECRET from /config/initializer/secret_token.rb to /config/application.yml and add /config/application.yml to .gitignore.
 
-Ok, now we create the scaffold for the new resource, User.
+Ok, now we create the scaffold for the new resource, List.
 
   > rails g scaffold list -f --no-test-framework --no-assets --no-stylesheets --no-scss name:string
 
@@ -50,13 +50,13 @@ Ok, now time to run the tests.  Oooops, gotta run the database migration first.
 
   > rake db:migrate
 
-Hmmm, not sure what's wrong.  Let's fire up the server and see what we can learn.  
+Hmmm, not sure what's wrong.  Let's fire up the server and see what we can learn.
 
   > rails s
 
 Starts up ok.  Browse to localhost:3000.  Aha, forgot to add the root route 'root :to => 'home#index' to /config/routes.rb
 
-Ok, what next.  Keep browsing.  Ahhhh.  Home controller is missing.  Ok, create a /app/controllers/home_controller.rb.  Add 
+Ok, what next.  Keep browsing.  Ahhhh.  Home controller is missing.  Ok, create a /app/controllers/home_controller.rb.  Add
 a stub for index:
 
 	class HomeController < ApplicationController
@@ -64,7 +64,7 @@ a stub for index:
 	  end
 	end
 
-All the browsing seems in order now.  Time to get the tests running.  
+All the browsing seems in order now.  Time to get the tests running.
 
 Don't forget to add fixture support to the /test/minitest_helper.rb file!
 
@@ -106,6 +106,6 @@ Check the migration file, then
 Best ever nested resource code examples: http://blog.8thcolor.com/2011/08/nested-resources-with-independent-views-in-ruby-on-rails/
 
 Whew!  So much tweaking of the Items controller, the views (of the Items and of Show Lists), and the Item tests.  Getting
-these paths correct was brutal.  I'm glad I've got it done and locked down in github for reference. 
+these paths correct was brutal.  I'm glad I've got it done and locked down in github for reference.
 
 
