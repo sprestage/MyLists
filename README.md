@@ -3,6 +3,9 @@ My Lists
 
 This is a web site for all of my lists, such as Grocery, Ranch To Do, Housework To Do, Personal To Do, Professional To Do, etc.
 
+[![Code Climate](https://codeclimate.com/github/sprestage/MyLists.png)](https://codeclimate.com/github/sprestage/MyLists)
+
+
 Basic Install
 =======
 Clone this git repository.
