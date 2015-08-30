@@ -105,4 +105,8 @@ class ItemsController < ApplicationController
       format.json { head :no_content }
     end
   end
+
+  def item_params
+    params.require(:item).permit(:name)
+  end
 end

@@ -80,4 +80,8 @@ class ListsController < ApplicationController
       format.json { head :no_content }
     end
   end
+
+  def list_params
+    params.require(:list).permit(:list_name)
+  end
 end

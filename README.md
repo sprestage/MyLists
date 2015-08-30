@@ -3,8 +3,10 @@ My Lists
 
 This is a web site for all of my lists, such as Grocery, Ranch To Do, Housework To Do, Personal To Do, Professional To Do, etc.
 
+[![Dependency Status](https://gemnasium.com/sprestage/MyLists.svg)](https://gemnasium.com/sprestage/MyLists)
 [![Code Climate](https://codeclimate.com/github/sprestage/MyLists.png)](https://codeclimate.com/github/sprestage/MyLists)
 
+Currently running Rails 4.0
 
 Basic Install
 =======
@@ -15,6 +17,12 @@ Run the rails server
   > rails s
 
 Use browser to access your lists at http://localhost:3000
+
+
+Current Issues
+=======
+Tests run successfully, 6 passes, 4 errors.  This needs some work.
+
 
 Implementation
 =======
