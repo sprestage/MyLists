@@ -6,7 +6,7 @@ This is a web site for all of my lists, such as Grocery, Ranch To Do, Housework 
 [![Dependency Status](https://gemnasium.com/sprestage/MyLists.svg)](https://gemnasium.com/sprestage/MyLists)
 [![Code Climate](https://codeclimate.com/github/sprestage/MyLists.png)](https://codeclimate.com/github/sprestage/MyLists)
 
-Currently running Rails 4.0
+Currently running Rails 4.2.4
 
 Basic Install
 =======

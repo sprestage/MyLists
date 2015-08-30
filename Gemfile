@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '4.0'
+gem 'rails', '4.2.4'
 
 gem 'sqlite3'
 
@@ -13,21 +13,16 @@ gem 'uglifier'
 
 group :development, :test do
   gem 'minitest'
-  gem 'minitest-rails'
+  gem 'minitest-focus'
+  gem 'minitest-reporters'
   gem 'minitest-rails-capybara'
   gem 'launchy'
-  gem 'minitest-focus'
-  gem 'minitest-colorize'
   gem 'pry-rails'
   gem 'pry-doc'
   gem 'pry-byebug'
 
   gem 'faker'
   gem 'figaro'
-end
-
-group :test do
-  gem 'turn'
 end
 
 gem 'jquery-rails'
