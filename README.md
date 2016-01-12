@@ -3,8 +3,10 @@ My Lists
 
 This is a web site for all of my lists, such as Grocery, Ranch To Do, Housework To Do, Personal To Do, Professional To Do, etc.
 
+[![Code Climate](https://codeclimate.com/github/sprestage/MyLists.png)](https://codeclimate.com/github/sprestage/MyLists)
+
 ### January 12, 2016
-I am sunsetting this project as it does not hold much interest to me at this time.  Removing Gemnasium and Code Climate badges.  If I take this project back up, the gems will need to be updated and how to get a better score than 2.5 in Code Climate should be investigated.  -sprestage
+I am sunsetting this project as it does not hold much interest to me at this time, other than for useful archival purposes.  Removing Gemnasium.  If I take this project back up, the gems will need to be updated and how to get a better score than 2.5 in Code Climate should be investigated.  -sprestage
 
 Currently running Rails 4.2.4
 
